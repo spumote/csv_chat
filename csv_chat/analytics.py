@@ -40,7 +40,7 @@ class Analytics:
         """
         overall_success = 0
         overall_attempts = 0
-        iterations = 1
+        iterations = 10
 
         for question, expected in self.questions_data:
             q_text = question + " Пожалуйста, ответь одним числом без дополнительных комментариев."
